@@ -1,0 +1,234 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SES.CMS.Site" %>
+
+<%@ Register Src="Module/ucServiceSlide.ascx" TagName="ucServiceSlide" TagPrefix="uc1" %>
+<%@ Register Src="Module/ucBannerLeftRight.ascx" TagName="ucBannerLeftRight" TagPrefix="uc2" %>
+<%@ Register Src="Module/ucConnectUs.ascx" TagName="ucConnectUs" TagPrefix="uc3" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link href="/css/Style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/Style1.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        // JavaScript Document
+        menu_status = new Array();
+
+        function showHide(theid) {
+            if (document.getElementById) {
+                var switch_id = document.getElementById(theid);
+
+                if (menu_status[theid] != 'show-div') {
+                    switch_id.className = 'show-div';
+                    menu_status[theid] = 'show-div';
+                } else {
+                    switch_id.className = 'hide-div';
+                    menu_status[theid] = 'hide-div';
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="/css/flexslider.css" type="text/css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="/js/jquery.flexslider-min.js"></script>
+    <%--   <script type="text/javascript" src="/js/jquery.lightbox-0.5.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/jquery.lightbox-0.5.css" media="screen" />--%>
+    <!-- Hook up the FlexSlider -->
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                controlNav: false,
+                directionNav: false
+            });
+
+        });
+    </script>
+    <%--<script type="text/javascript">
+    $(function() {
+        $('a.lightbox').lightBox();
+    });
+    </script>--%>
+    <link rel="stylesheet" type="text/css" href="/preview.css" />
+    <link rel="stylesheet" type="text/css" href="/wt-rotator.css" />
+    <script type="text/javascript" src="/js/jquery.wt-rotator.min.js"></script>
+    <script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script type="text/javascript" src="/fancybox/jquery.easing-1.3.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="/fancybox/jquery.fancybox-1.3.4.css"
+        media="screen" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            *   Examples - images
+            */
+
+            $("a.fancyboxx").fancybox({
+                'transitionIn': 'none',
+                'transitionOut': 'none',
+                'titlePosition': 'over',
+                'titleFormat': function (title, currentArray, currentIndex, currentOpts) {
+                    return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + ' ' + title + '</span>';
+                }
+            });
+            $("a.fancyboxstream").attr('rel', 'gallery').fancybox({
+                'width': 930,
+                'height': 615,
+                'autoScale': false,
+                'transitionIn': 'none',
+                'transitionOut': 'none',
+                'type': 'iframe',
+                'padding': 0
+            });
+            $("a.fackybox_x").fancybox({
+                'transitionIn': 'elastic',
+                'transitionOut': 'elastic',
+                'speedIn': 200,
+                'speedOut': 200,
+                'titlePosition': 'over',
+                'overlayShow': true
+
+            });
+            $(".gallery_bg").fancybox({//displaying images
+
+                /*openEffect    : 'elastic',
+                closeEffect : 'elastic',
+                'cyclic':'true',
+                'scrolling':'yes',
+                'showNavArrows':'true',
+                helpers : {
+                title : {
+                type : 'inside'
+                }
+                }
+                */
+                openEffect: 'elastic',
+                closeEffect: 'elastic',
+                showNavArrows: true,
+                closeBtn: false,
+                helpers: {
+                    title: { type: 'inside' },
+                    buttons: {}
+                }
+
+            });
+
+        });
+    </script>
+    <meta name="google-site-verification" content="lgVZILqfCZT_7t0kDnTvg0XTjz6BgHwL9kA3Mz-UCiE" />
+    <meta name="SEO" content="Tu van SEO Adwords by SES.VN – www.ses.vn" />
+    <meta name="WebDesign" content="Thiet ke Website – www.ses.vn" />
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38809306-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="full">
+        <div class="header">
+            <div class="topmenu">
+                <div class="mnuitem">
+                    <ul id="float" class="nav">
+                        <li class="first"><a href="/Default.aspx" rel="nofollow">TRANG CHỦ</a></li>
+                        <%--<li><a href="/Thong-Tin-Cuoi-Hoi/1/Gioi-Thieu.html">GIỚI THIỆU</a></li>--%>
+                        <asp:Label ID="lblCat" runat="server"></asp:Label>
+                        <%-- <li><a href="/List-Dich-Vu-Cuoi-Hoi/1/He-thong-dich-vu.html">DỊCH VỤ</a></li>
+                    <asp:Label ID="lblService" runat="server"></asp:Label>
+                    <li><a href="/Tin-Cuoi-Hoi/42/Tin-Tuc.html">TIN TỨC</a></li>
+                    <asp:Label ID="lblNews" runat="server"></asp:Label>
+                    <li><a href="/Tin-Cuoi-Hoi/45/Tin-Tuc.html">TƯ VẤN</a></li>
+                    <asp:Label ID="lblConsult" runat="server"></asp:Label>
+                        --%>
+                        <li><a href="/Kich-Ban-Cuoi-Hoi.aspx">KỊCH BẢN CƯỚI HỎI</a></li>
+                        <li class="last"><a href="/Lien-He-Dich-Vu-Cuoi-Hoi.aspx">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <uc2:ucBannerLeftRight ID="ucBannerLeftRight1" runat="server" />
+            <uc1:ucServiceSlide Visible="true" ID="ucHomeSlide1" runat="server" />
+            <div class="slide-bg">
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="footer">
+                <div class="ftcontent" style="display: none;">
+                    <div class="ft1">
+                        <div class="ft1-header">
+                            <h1 class="h1style">
+                                <asp:Label ID="lblFT1Title" runat="server" Text=""></asp:Label></h1>
+                        </div>
+                        <div class="ft1-content">
+                            <asp:Label ID="lblFT1" runat="server" Text=""></asp:Label>
+                            <div style="width: 30px; height: 35px; float: left;">
+                            </div>
+                            <uc3:ucConnectUs ID="ucConnectUs1" runat="server" />
+                        </div>
+                    </div>
+                    <div class="ft1" style="margin-left: 15px;">
+                        <div class="ft1-header">
+                            <h1 class="h1style">
+                                <asp:Label ID="lblFT2Title" runat="server" Text=""></asp:Label></h1>
+                        </div>
+                        <div class="ft1-content">
+                            <asp:Label ID="lblFT2" runat="server" Text=""></asp:Label>
+                        </div>
+                    </div>
+                    <div class="ft1" style="margin-right: 0px; margin-left: 15px;">
+                        <div class="ft1-header">
+                            <h1 class="h1style">
+                                <asp:Label ID="lblFT3Title" runat="server" Text=""></asp:Label></h1>
+                        </div>
+                        <div class="ft1-content">
+                            <asp:Label ID="lblFT3" runat="server" Text=""></asp:Label>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-inner">
+                    <h1>
+                        <asp:Label ID="lblCompanyName" runat="server"></asp:Label></h1>
+                    <div class="footer-content">
+                        <asp:Label ID="lbThongTin" runat="server" Visible="false"></asp:Label>
+                        <div class="footer-content-left">
+                            <p>-  68 Hàng Than, Ba Đình, Hà Nội</p>
+                            <p>- 14C Hàng Than, Hoàn Kiếm, Hà Nội</p>
+                            <p>- Số 2 Lê Văn Linh - Phùng Hưng, Hoàn Kiếm, Hà Nội</p>
+                            <p>Hotline: 0933 15 15 15</p>
+                            <p>E-mail: info@cuoihoitrongoi.com.vn</p>
+                        </div>
+                        <div class="footer-content-right">
+                            <p>Điện thoại:  (04)39 275 383 - (04)32 668 668</p>
+                            <p>Điện thoại: (04)38 456 789</p>
+                            <p>Điện thoại: (04)3 717 38 38</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="border-top-left-radius: 3px 3px; position: fixed; color: #000; font-size: 12px;
+        z-index: 9998; width: 220px; bottom: 0px; right: 0px; background-color: white;
+        border: solid #c83838 1px;">
+        <div id="yahooSupports" style="display: none;">
+            <img src='/images/hotro.png' />
+        </div>
+        <div id="nicksp" style="display: block;">
+            <img src='/images/hotrow.png' />
+            <asp:Label ID="lblScr" runat="server" Text=""></asp:Label>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

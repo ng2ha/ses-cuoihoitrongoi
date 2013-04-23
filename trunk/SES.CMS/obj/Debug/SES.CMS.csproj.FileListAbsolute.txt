@@ -1,0 +1,115 @@
+F:\Thuyet\CuoiHoi\SES.CMS\obj\Debug\ResolveAssemblyReference.cache
+F:\Thuyet\CuoiHoi\SES.CMS\bin\SES.CMS.dll
+F:\Thuyet\CuoiHoi\SES.CMS\bin\SES.CMS.pdb
+F:\Thuyet\CuoiHoi\SES.CMS\bin\SES.CMS.BL.dll
+F:\Thuyet\CuoiHoi\SES.CMS\bin\SES.CMS.DO.dll
+F:\Thuyet\CuoiHoi\SES.CMS\bin\SES.CMS.DAL.dll
+F:\Thuyet\CuoiHoi\SES.CMS\bin\SES.CMS.BL.pdb
+F:\Thuyet\CuoiHoi\SES.CMS\bin\SES.CMS.DAL.pdb
+F:\Thuyet\CuoiHoi\SES.CMS\bin\SES.CMS.DO.pdb
+F:\Thuyet\CuoiHoi\SES.CMS\obj\Debug\SES.CMS.dll
+F:\Thuyet\CuoiHoi\SES.CMS\obj\Debug\SES.CMS.pdb
+C:\Documents and Settings\Administrator\Desktop\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.dll
+C:\Documents and Settings\Administrator\Desktop\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.pdb
+C:\Documents and Settings\Administrator\Desktop\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.BL.dll
+C:\Documents and Settings\Administrator\Desktop\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DO.dll
+C:\Documents and Settings\Administrator\Desktop\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DAL.dll
+C:\Documents and Settings\Administrator\Desktop\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.BL.pdb
+C:\Documents and Settings\Administrator\Desktop\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DO.pdb
+C:\Documents and Settings\Administrator\Desktop\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DAL.pdb
+C:\Documents and Settings\Administrator\Desktop\QuangDung-CuoiHoi\SES.CMS\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\QuangDung-CuoiHoi\SES.CMS\obj\Debug\SES.CMS.dll
+C:\Documents and Settings\Administrator\Desktop\QuangDung-CuoiHoi\SES.CMS\obj\Debug\SES.CMS.pdb
+F:\Thuyet\CuoiHoi\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.dll
+F:\Thuyet\CuoiHoi\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.pdb
+F:\Thuyet\CuoiHoi\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.BL.dll
+F:\Thuyet\CuoiHoi\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DO.dll
+F:\Thuyet\CuoiHoi\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DAL.dll
+F:\Thuyet\CuoiHoi\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.BL.pdb
+F:\Thuyet\CuoiHoi\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DO.pdb
+F:\Thuyet\CuoiHoi\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DAL.pdb
+F:\Thuyet\CuoiHoi\QuangDung-CuoiHoi\SES.CMS\obj\Debug\ResolveAssemblyReference.cache
+F:\Thuyet\CuoiHoi\QuangDung-CuoiHoi\SES.CMS\obj\Debug\SES.CMS.dll
+F:\Thuyet\CuoiHoi\QuangDung-CuoiHoi\SES.CMS\obj\Debug\SES.CMS.pdb
+E:\Shared\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.dll
+E:\Shared\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.pdb
+E:\Shared\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.BL.dll
+E:\Shared\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DO.dll
+E:\Shared\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DAL.dll
+E:\Shared\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.BL.pdb
+E:\Shared\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DO.pdb
+E:\Shared\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DAL.pdb
+E:\Shared\QuangDung-CuoiHoi\SES.CMS\obj\Debug\ResolveAssemblyReference.cache
+E:\Shared\QuangDung-CuoiHoi\SES.CMS\obj\Debug\SES.CMS.dll
+E:\Shared\QuangDung-CuoiHoi\SES.CMS\obj\Debug\SES.CMS.pdb
+D:\Ses.vn- Works\QuangDung-CuoiHoi\SES.CMS\obj\Debug\ResolveAssemblyReference.cache
+D:\Ses.vn- Works\QuangDung-CuoiHoi\SES.CMS\obj\Debug\SES.CMS.pdb
+D:\Ses.vn- Works\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.dll
+D:\Ses.vn- Works\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.pdb
+D:\Ses.vn- Works\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.BL.dll
+D:\Ses.vn- Works\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DO.dll
+D:\Ses.vn- Works\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DAL.dll
+D:\Ses.vn- Works\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.BL.pdb
+D:\Ses.vn- Works\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DO.pdb
+D:\Ses.vn- Works\QuangDung-CuoiHoi\SES.CMS\bin\SES.CMS.DAL.pdb
+D:\Ses.vn- Works\QuangDung-CuoiHoi\SES.CMS\obj\Debug\SES.CMS.dll
+E:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.dll
+E:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.pdb
+E:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.BL.dll
+E:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.DO.dll
+E:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.DAL.dll
+E:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.BL.pdb
+E:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.DO.pdb
+E:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.DAL.pdb
+E:\SES Project\Quang Dung\code\SES.CMS\obj\Debug\ResolveAssemblyReference.cache
+E:\SES Project\Quang Dung\code\SES.CMS\obj\Debug\SES.CMS.dll
+E:\SES Project\Quang Dung\code\SES.CMS\obj\Debug\SES.CMS.pdb
+D:\SES Project\Quang Dung\code\SES.CMS\obj\Debug\ResolveAssemblyReference.cache
+D:\SES Project\Quang Dung\code\SES.CMS\obj\Debug\SES.CMS.dll
+D:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.dll
+D:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.pdb
+D:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.BL.dll
+D:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.DO.dll
+D:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.DAL.dll
+D:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.BL.pdb
+D:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.DO.pdb
+D:\SES Project\Quang Dung\code\SES.CMS\bin\SES.CMS.DAL.pdb
+D:\SES Project\Quang Dung\code\SES.CMS\obj\Debug\SES.CMS.pdb
+D:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.dll
+D:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.pdb
+D:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.BL.dll
+D:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.DO.dll
+D:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.DAL.dll
+D:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.BL.pdb
+D:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.DO.pdb
+D:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.DAL.pdb
+D:\SES Project\Quang Dung\pub\SES.CMS\obj\Debug\ResolveAssemblyReference.cache
+D:\SES Project\Quang Dung\pub\SES.CMS\obj\Debug\SES.CMS.dll
+D:\SES Project\Quang Dung\pub\SES.CMS\obj\Debug\SES.CMS.pdb
+E:\SES Project\Quang Dung\pub\SES.CMS\obj\Debug\SES.CMS.csprojResolveAssemblyReference.cache
+E:\SES Project\Quang Dung\pub\SES.CMS\obj\Debug\SES.CMS.dll
+E:\SES Project\Quang Dung\pub\SES.CMS\obj\Debug\SES.CMS.pdb
+E:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.dll
+E:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.pdb
+E:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.BL.dll
+E:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.DO.dll
+E:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.DAL.dll
+E:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.BL.pdb
+E:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.DO.pdb
+E:\SES Project\Quang Dung\pub\SES.CMS\bin\DevExpress.Data.v9.2.xml
+E:\SES Project\Quang Dung\pub\SES.CMS\bin\DevExpress.Web.ASPxEditors.v9.2.xml
+E:\SES Project\Quang Dung\pub\SES.CMS\bin\DevExpress.Web.ASPxGridView.v9.2.xml
+E:\SES Project\Quang Dung\pub\SES.CMS\bin\DevExpress.Web.ASPxTreeList.v9.2.xml
+E:\SES Project\Quang Dung\pub\SES.CMS\bin\DevExpress.Web.v9.2.xml
+E:\SES Project\Quang Dung\pub\SES.CMS\bin\SES.CMS.DAL.pdb
+D:\Works\Ses-vn\Website\Projects\cuoihoitrongoi\SES.CMS\bin\SES.CMS.dll
+D:\Works\Ses-vn\Website\Projects\cuoihoitrongoi\SES.CMS\bin\SES.CMS.pdb
+D:\Works\Ses-vn\Website\Projects\cuoihoitrongoi\SES.CMS\bin\SES.CMS.BL.dll
+D:\Works\Ses-vn\Website\Projects\cuoihoitrongoi\SES.CMS\bin\SES.CMS.DO.dll
+D:\Works\Ses-vn\Website\Projects\cuoihoitrongoi\SES.CMS\bin\SES.CMS.DAL.dll
+D:\Works\Ses-vn\Website\Projects\cuoihoitrongoi\SES.CMS\bin\SES.CMS.BL.pdb
+D:\Works\Ses-vn\Website\Projects\cuoihoitrongoi\SES.CMS\bin\SES.CMS.DO.pdb
+D:\Works\Ses-vn\Website\Projects\cuoihoitrongoi\SES.CMS\bin\SES.CMS.DAL.pdb
+D:\Works\Ses-vn\Website\Projects\cuoihoitrongoi\SES.CMS\obj\Debug\ResolveAssemblyReference.cache
+D:\Works\Ses-vn\Website\Projects\cuoihoitrongoi\SES.CMS\obj\Debug\SES.CMS.dll
+D:\Works\Ses-vn\Website\Projects\cuoihoitrongoi\SES.CMS\obj\Debug\SES.CMS.pdb

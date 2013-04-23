@@ -1,0 +1,161 @@
+﻿.contact-text
+{
+	width: 40%;
+	font-size: 12px;
+	color: White;
+    margin-top: 9px;
+    margin-left: 5px;
+    float: left;
+}
+.comment-text
+{
+	width: 40%;
+	font-size: 12px;
+	color: White;
+    margin-top: 9px;
+    margin-left: 0px;
+    float: left;
+}
+.contact-text a
+{
+    font-family:Arial;
+	font-size: 12px;
+	color: White;
+	 margin-top: 5px;
+}
+.contact-input
+{
+	width: 50%;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-color: #FBE8EC;
+	color:  Black;
+	font-family: Arial;
+	font-size: 12px;
+	float:left;
+	border: 0;
+	height: 23px;
+	margin-top: 10px;
+}
+.contact-input-mail
+{
+	width: 65%;
+	background-color: #FBE8EC;
+	color: Gray;
+	font-family: Arial;
+	font-size: 12px;
+	float:left;
+	border: 0;
+	height: 26px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+	border:solid #D32145 1px;
+}
+.submit-mail
+{
+	width: 65px;
+height: 28px;
+color: white;
+background-color: #D32145;
+text-align: center;
+font: normal 12/27px arial;
+margin-left: 0px;
+cursor: pointer;
+border:0;
+float:left;
+border-top-right-radius: 5px 5px;
+border-bottom-right-radius: 5px 5px;
+}
+
+.comment-input
+{
+	width: 50%;
+	margin-right: 5px;
+	background-color: #FBE8EC;
+	color:  Black;
+	font-family: Arial;
+	font-size: 12px;
+	float:left;
+	border: 0;
+	height: 23px;
+	margin-top: 10px;
+}
+
+.contact-input1
+{
+	width: 200px;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-color: #FBE8EC;
+	color:  Black;
+	font-family: Arial;
+	font-size: 12px;
+	float:left;
+	border: 0;
+	height: 23px;
+	margin-top: 10px;
+}
+.date-input
+{
+	width: 100px;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-color: #FBE8EC;
+	color:  Black;
+	font-family: Arial;
+	font-size: 12px;
+	float:left;
+	border: 0;
+	height: 23px;
+	margin-top: 10px;
+}
+.time-input
+{
+	width: 60px;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-color: #FBE8EC;
+	color:  Black;
+	font-family: Arial;
+	font-size: 12px;
+	float:left;
+	border: 0;
+	height: 23px;
+	margin-top: 10px;
+}
+.package-input
+{
+	width: 100px;
+	margin-right: 10px;
+	margin-left: 66px;
+	background-color: #FBE8EC;
+	color:  Black;
+	font-family: Arial;
+	font-size: 12px;
+	float:left;
+	border: 0;
+	height: 23px;
+}
+
+
+.submit
+{
+	width: 57px;
+height: 27px;
+color: white;
+background-color: #D32145;
+text-align: center;
+font: normal 12/27px arial;
+margin-left: 5px;
+cursor: pointer;
+border:0;
+float:left;
+}
+
+.validate
+{
+width:30px;
+float:left;
+}
+
+
