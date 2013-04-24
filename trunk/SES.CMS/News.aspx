@@ -16,7 +16,7 @@
             </div>
             <asp:Repeater ID="rptListNews" runat="server">
                 <ItemTemplate>
-                    <div class="topsvitem" style="height: auto; min-height: 130px; border-bottom: solid #A62021 1px;">
+                    <%--<div class="topsvitem" style="height: auto; min-height: 130px; border-bottom: solid #A62021 1px;">
                         <div class="topsvitem-ct">
                             <div class="topsvitem-ct-picholder">
                                 <a href="/Tin-Cuoi-Hoi-Chi-Tiet/<%#Eval("ArticleID")%>/<%#Change_AV(Eval("Title").ToString()) %>">
@@ -36,7 +36,25 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div>--%>
+                    <div class="weddingconsult-ct-item">
+                                <div class="weddingconsult-ct-item-picholder">
+                                    <a href="/Tin-Cuoi-Hoi-Chi-Tiet/<%#Eval("ArticleID")%>/<%#Change_AV(Eval("Title").ToString()) %>">
+                                        <img src="/Media/<%#Eval("ImageUrl")%>" alt="<%#(Eval("Title"))%>" /></a>
+                                </div>
+                                <div class="weddingconsult-ct-item-if">
+                                    <div class="weddingconsult-ct-item-if-title">
+                                        <a href="/Tin-Cuoi-Hoi-Chi-Tiet/<%#Eval("ArticleID")%>/<%#Change_AV(Eval("Title").ToString()) %>">
+                                            <%#Eval("Title")%></a>
+                                    </div>
+                                    <div class="weddingconsult-ct-item-if-text">
+                                        <%#WordCut(Eval("Description").ToString())%>
+                                    </div>
+                                </div>
+                                <div class="weddingconsult-readmore">
+                                    <a href='/Tin-Cuoi-Hoi-Chi-Tiet/<%#Eval("ArticleID")%>/<%#Change_AV(Eval("Title").ToString()) %>'>Xem tiếp</a>
+                                </div>
+                            </div>
                 </ItemTemplate>
             </asp:Repeater>
             <div style="width: 100%; float: left; margin-top: 10px;">

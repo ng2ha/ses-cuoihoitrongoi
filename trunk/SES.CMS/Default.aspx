@@ -80,7 +80,8 @@
                                     </div>
                                 </div>
                                 <div class="weddingconsult-readmore">
-                                    <a href='/Tin-Cuoi-Hoi-Chi-Tiet/<%#Eval("ArticleID")%>/<%#Change_AV(Eval("Title").ToString()) %>'>Xem tiếp</a>
+                                    <a href='/Tin-Cuoi-Hoi-Chi-Tiet/<%#Eval("ArticleID")%>/<%#Change_AV(Eval("Title").ToString()) %>'>
+                                        Xem tiếp</a>
                                 </div>
                             </div>
                         </ItemTemplate>
@@ -91,13 +92,20 @@
         <div class="ct-right">
             <asp:Label ID="lblCuocThiAnh" runat="server" Text=""></asp:Label>
             <uc2:ucHappyWedding ID="ucHappyWedding1" runat="server" />
+            <div class="social-facebook" style="display: none;">
+                <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fcuoihoitrongoi.com.vn&amp;width=328&amp;height=400&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false&amp;appId=339171169492293"
+                    scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 328px;
+                    background: #fff; height: 400px;" allowtransparency="true"></iframe>
+            </div>
         </div>
         <div class="search-box">
-        <div class="s-search">
-            <asp:TextBox ID="txtSearch" CssClass="r-search-input" runat="server"></asp:TextBox>
-                <asp:Button ID="btnTimkiem" runat="server" Text="Tìm kiếm" CssClass="r-submitSearch"
-                    OnClick="btnTimkiem_Click" />
-        </div>
+            <div class="s-search" style="display: none;">
+                <div >
+                    <asp:TextBox ID="txtSearch" CssClass="r-search-input" runat="server"></asp:TextBox>
+                    <asp:Button ID="btnTimkiem" runat="server" Text="Tìm kiếm" CssClass="r-submitSearch"
+                        OnClick="btnTimkiem_Click" />
+                </div>
+            </div>
         </div>
         <%--    <div class="ctright">
             <div class="Search1">

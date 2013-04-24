@@ -1494,6 +1494,7 @@
     <Content Include="Media\Xe-hoa-29032012020245.jpg" />
     <Content Include="Module\ucAlbumLink.ascx" />
     <Content Include="Module\ucBannerLeftRight.ascx" />
+    <Content Include="Module\ucChildMenu.ascx" />
     <Content Include="Module\ucHappyWedding.ascx" />
     <Content Include="Module\ucHomeSlide.ascx" />
     <Content Include="Module\ucPollResult.ascx" />
@@ -1905,6 +1906,13 @@
     </Compile>
     <Compile Include="Module\ucBreadcrumb.ascx.designer.cs">
       <DependentUpon>ucBreadcrumb.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Module\ucChildMenu.ascx.cs">
+      <DependentUpon>ucChildMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Module\ucChildMenu.ascx.designer.cs">
+      <DependentUpon>ucChildMenu.ascx</DependentUpon>
     </Compile>
     <Compile Include="Module\ucConnectUs.ascx.cs">
       <DependentUpon>ucConnectUs.ascx</DependentUpon>

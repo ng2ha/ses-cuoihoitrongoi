@@ -3,28 +3,30 @@
 
 <%@ Register Src="Module/ucServiceMenu.ascx" TagName="ucServiceMenu" TagPrefix="uc1" %>
 <%@ Register Src="Module/ucSocialLink.ascx" TagName="ucSocialLink" TagPrefix="uc5" %>
-<%@ Register src="Module/ucBreadcrumb.ascx" tagname="ucBreadcrumb" tagprefix="uc3" %>
+<%@ Register Src="Module/ucBreadcrumb.ascx" TagName="ucBreadcrumb" TagPrefix="uc3" %>
+<%@ Register Src="Module/ucChildMenu.ascx" TagName="ucChildMenu" TagPrefix="uc2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<style>
-#fancybox-right {
-	right: 330px;
-}
-</style>
+    <style>
+        #fancybox-right
+        {
+            right: 330px;
+        }
+    </style>
     <div class="mainct">
-        <uc1:ucServiceMenu ID="ucServiceMenu1" runat="server" />
+        <div style="float: left; width: 210px;">
+            <uc2:ucChildMenu ID="ucChildMenu1" runat="server" />
+            <br />
+            <uc1:ucServiceMenu ID="ucServiceMenu1" runat="server" />
+        </div>
         <div class="servicecontent">
             <uc3:ucBreadcrumb ID="ucBreadcrumb1" runat="server" />
             <uc5:ucSocialLink ID="ucSocialLink1" runat="server" />
             <div class="servicecontent-top">
-            
                 <div class="servicecontent-top-left" style="margin-left: -8px;">
-                
                     <asp:Label ID="lblContentTitle" runat="server" Text="Title" Font-Size="18px"></asp:Label>
-                          
                 </div>
                 <div class="servicecontent-top-rgt">
                 </div>
-                 
             </div>
             <br />
             <blockquote class="serviceintro">
@@ -57,7 +59,6 @@
                         </div>
                     </FooterTemplate>
                 </asp:Repeater>
-                
                 <asp:Repeater ID="rptKH" Visible="false" runat="server">
                     <HeaderTemplate>
                         <div class="serviceimgl2" id="lightdiv">
@@ -65,8 +66,8 @@
                     <ItemTemplate>
                         <div class="serviceimgl2-detail">
                             <div class="serviceimgl2-detail-pic">
-                               <a class="fancyboxstream" href="/PhotoStream/<%#Eval("ImageID") %>/Default.aspx">
-                                        <img alt="<%#Eval("Description") %>" src="/Media/<%#Eval("Thumbnail") %>" /></a>
+                                <a class="fancyboxstream" href="/PhotoStream/<%#Eval("ImageID") %>/Default.aspx">
+                                    <img alt="<%#Eval("Description") %>" src="/Media/<%#Eval("Thumbnail") %>" /></a>
                             </div>
                             <div class="serviceimgl2-detail-title">
                                 <%#(Eval("Title").ToString().ToUpper())%></a>
@@ -77,14 +78,11 @@
                         </div>
                     </FooterTemplate>
                 </asp:Repeater>
-                
                 <div class="serviceimgl2" id="lightdiv">
                     <asp:Repeater ID="rptServiceLs" Visible="false" runat="server">
                         <HeaderTemplate>
                             <div class="serviceimgls">
                                 <div class="serviceimg">
-
-                                   
                         </HeaderTemplate>
                         <ItemTemplate>
                             <div class="serviceimgls-detail">
@@ -104,7 +102,6 @@
                     </asp:Repeater>
                 </div>
             </div>
-           
         </div>
     </div>
 </asp:Content>
