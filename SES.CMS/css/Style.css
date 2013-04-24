@@ -1545,10 +1545,7 @@ border-left: 3px solid #ffd500;
 	font-size:20px;
 	}
 /********* Service **********/
-.fancybox-next span {
-  left: auto;
-  right: 20px;
- }
+
  .fsl a, .fwb a
  {
  	color:#fff !important;
