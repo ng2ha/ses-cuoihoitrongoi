@@ -40,6 +40,33 @@ namespace SES.CMS {
         protected global::System.Web.UI.WebControls.Repeater rptAlbums;
         
         /// <summary>
+        /// rptListNews control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rptListNews;
+        
+        /// <summary>
+        /// cmdPrev control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton cmdPrev;
+        
+        /// <summary>
+        /// cmdNext control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton cmdNext;
+        
+        /// <summary>
         /// ucSocialLink1 control.
         /// </summary>
         /// <remarks>

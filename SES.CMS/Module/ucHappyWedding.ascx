@@ -15,14 +15,14 @@
                         <li><a target="_blank" href="<%#Eval("SlideURL") %>">
                             <img src="/Media/<%#Eval("SlideImg") %>" />
                         </a>
-                        <%--<div style="float:left; display:none; width:100%; margin-top:20px; margin-bottom:10px; font-family:Tahoma; font-size:14px; font-weight:bold; color:#fff;">
+                        <div style="float:left; width:100%; margin-top:20px; margin-bottom:10px; font-family:Tahoma; font-size:14px; font-weight:bold; color:#fff;">
                         <%#Eval("Title") %>
                         </div>
                         <blockquote class="styleHappy">
                         <span>
                         <%#Eval("Description")%>
                         </span>
-                        </blockquote>--%>
+                        </blockquote>
                         </li>
                     </ItemTemplate>
                 </asp:Repeater>
