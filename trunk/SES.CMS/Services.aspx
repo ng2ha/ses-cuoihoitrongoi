@@ -6,12 +6,6 @@
 <%@ Register Src="Module/ucBreadcrumb.ascx" TagName="ucBreadcrumb" TagPrefix="uc3" %>
 <%@ Register Src="Module/ucChildMenu.ascx" TagName="ucChildMenu" TagPrefix="uc2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <style>
-        #fancybox-right
-        {
-            right: 330px;
-        }
-    </style>
     <div class="mainct">
         <div style="float: left; width: 210px;">
             <uc2:ucChildMenu ID="ucChildMenu1" runat="server" />
@@ -66,7 +60,7 @@
                     <ItemTemplate>
                         <div class="serviceimgl2-detail">
                             <div class="serviceimgl2-detail-pic">
-                                <a class="fancyboxstream" href="/PhotoStream/<%#Eval("ImageID") %>/Default.aspx">
+                                  <a class="fancyboxx" href='/Media/<%#Eval("ImgFile") %>' rel="gallery">
                                     <img alt="<%#Eval("Description") %>" src="/Media/<%#Eval("Thumbnail") %>" /></a>
                             </div>
                             <div class="serviceimgl2-detail-title">
@@ -87,7 +81,7 @@
                         <ItemTemplate>
                             <div class="serviceimgls-detail">
                                 <div class="serviceimgls-detail-pic">
-                                    <a class="fancyboxstream" href="/PhotoStream/<%#Eval("ImageID") %>/Default.aspx">
+                                    <a class="fancyboxx" href='/Media/<%#Eval("ImgFile") %>' rel="gallery">
                                         <img alt="<%#Eval("Title") %>" src="/Media/<%#Eval("ImgFile") %>" /></a>
                                 </div>
                                 <div class="serviceimgls-detail-title">

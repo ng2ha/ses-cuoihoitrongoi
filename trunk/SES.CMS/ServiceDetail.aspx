@@ -5,12 +5,7 @@
 <%@ Register Src="Module/ucSocialLink.ascx" TagName="ucSocialLink" TagPrefix="uc5" %>
 <%@ Register Src="Module/ucBreadcrumb.ascx" TagName="ucBreadcrumb" TagPrefix="uc2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <style>
-        #fancybox-right
-        {
-            right: 330px;
-        }
-    </style>
+   
     <div class="mainct">
         <uc1:ucServiceMenu ID="ucServiceMenu1" runat="server" />
         <div class="servicecontent">
