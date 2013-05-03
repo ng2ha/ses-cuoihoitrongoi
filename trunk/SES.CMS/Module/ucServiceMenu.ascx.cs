@@ -21,11 +21,11 @@ namespace SES.CMS.Module
         protected void Page_Load(object sender, EventArgs e)
         {
             DataTable dt = new cmsCategoryBL().SelectByParent(28);
-            DataRow dr = dt.NewRow();
-            dr["CategoryID"] = 76;
-            dr["Title"] = "Khách hàng tiêu biểu";
-            dr["OrderID"] = 0;
-            dt.Rows.Add(dr);
+            //DataRow dr = dt.NewRow();
+            //dr["CategoryID"] = 76;
+            //dr["Title"] = "Khách hàng tiêu biểu";
+            //dr["OrderID"] = 0;
+            //dt.Rows.Add(dr);
             rptServiceL1.DataSource = new DataView(dt,"","OrderID ASC",DataViewRowState.CurrentRows);
             rptServiceL1.DataBind();
 
