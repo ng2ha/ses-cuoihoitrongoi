@@ -16,9 +16,19 @@ namespace SES.CMS.Module
         {
             if (!IsPostBack)
             {
-                DataTable dt = new cmsCategoryBL().SelectByParent(int.Parse(Request.QueryString["ID"]));
-                rptServiceL1.DataSource = new DataView(dt, "", "OrderID ASC", DataViewRowState.CurrentRows);
-                rptServiceL1.DataBind();
+                if (!string.IsNullOrEmpty(Request.QueryString["ID"]))
+                {
+                    int serviceID = int.Parse(Request.QueryString["ID"]);
+                    if (serviceID == 32 || serviceID == 36 || serviceID == 39 || serviceID == 114 || serviceID == 41)
+                    {
+                        rptServiceL1.Visible = false;
+                    }
+                    DataTable dt = new cmsCategoryBL().SelectByParent(serviceID);
+
+                    rptServiceL1.DataSource = new DataView(dt, "", "OrderID ASC", DataViewRowState.CurrentRows);
+                    rptServiceL1.DataBind();
+                }
+               
             }
         }
         protected string FriendlyUrl(string strTitle)

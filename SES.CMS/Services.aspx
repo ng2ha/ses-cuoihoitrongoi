@@ -10,7 +10,7 @@
         <div style="float: left; width: 210px;">
             <uc2:ucChildMenu ID="ucChildMenu1" runat="server" />
             <br />
-            <uc1:ucServiceMenu ID="ucServiceMenu1" runat="server" />
+            <uc1:ucServiceMenu ID="ucServiceMenu1" runat="server"/>
         </div>
         <div class="servicecontent">
             <uc3:ucBreadcrumb ID="ucBreadcrumb1" runat="server" />
