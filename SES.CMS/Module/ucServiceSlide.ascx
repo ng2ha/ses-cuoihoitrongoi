@@ -23,13 +23,13 @@
                         <ItemTemplate>
                             <li><a href="/Media/<%#Eval("SlideImg") %>" title="<%#Eval("Title") %>" /><a href="<%#Eval("SlideURL") %>">
                             </a>
-                                <%--<div style="display:none;">
+                                <div>
                                     <span class="cap-title"><a href="<%#Eval("SlideURL") %>">
                                         <%#Eval("Title") %>
                                     </a></span>
-                                    <br />
+                                    <br /><br />
                                     <%#Eval("Description")%>
-                                </div>--%>
+                                </div>
                             </li>
                         </ItemTemplate>
                     </asp:Repeater>

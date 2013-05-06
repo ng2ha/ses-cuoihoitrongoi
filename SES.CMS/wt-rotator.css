@@ -42,12 +42,23 @@ visibility:hidden;
 .desc{
 color:#FFF;
 position:absolute;
-background-color:rgba(159, 159, 159, 0.597656);
-top:200px;
+background-color:rgba(0, 0, 0, 0.597656);
+
+top:0 !important;
 left:0;
 z-index:6;
 overflow:hidden;
 visibility:hidden;
+height:320px !important;
+width:320px !important;
+}
+.desc-title
+{
+	}
+.cap-title
+{
+    display:inline-block;
+    margin:10px 0;
 }
 .inner-bg{
 position:absolute;
