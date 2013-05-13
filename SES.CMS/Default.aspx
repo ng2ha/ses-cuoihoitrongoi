@@ -4,6 +4,7 @@
 <%@ Register Src="Module/ucHappyWedding.ascx" TagName="ucHappyWedding" TagPrefix="uc2" %>
 <%@ Register Src="Module/ucPopup.ascx" TagName="ucPopup" TagPrefix="uc4" %>
 <%@ Register Src="Module/ucThongKe.ascx" TagName="ucThongKe" TagPrefix="uc1" %>
+<%@ Register Src="Module/ucAlbumDaThucHien.ascx" TagName="ucAlbumDaThucHien" TagPrefix="uc3" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -92,19 +93,31 @@
         <div class="ct-right">
             <asp:Label ID="lblCuocThiAnh" runat="server" Text=""></asp:Label>
             <uc2:ucHappyWedding ID="ucHappyWedding1" runat="server" />
+            <div style="float: left; text-align: left; margin-top: 10px; font-weight: bold; margin-left: 0px;
+                width: 100%; color: #fff; font-size: 13px;">
+                Kết nối Cưới Hỏi Trọn Gói:
+                <div class="socialicon" style="margin-top: 5px; margin-left: 0px; width: 100%;">
+                    <a href="http://www.facebook.com/CuoiHoiTronGoi.com.vn">
+                        <img alt="Chúng tôi trên Facebook" src="/images/facebook.png" /></a> <a href="http://CuoiHoiTronGoi.com.vn/RSS.aspx">
+                            <img alt="Chúng tôi trên Facebook" src="/images/rss.png" width="20px" height="20px" /></a>
+                    <iframe runat="server" id="abc" scrolling="no" frameborder="0" style="margin-bottom: 2px;
+                        float: left; border: none; overflow: hidden; width: 85px; height: 24px;" allowtransparency="true">
+                    </iframe>
+                </div>
+            </div>
             <div class="social-facebook" style="display: none;">
                 <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fcuoihoitrongoi.com.vn&amp;width=328&amp;height=400&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false&amp;appId=339171169492293"
                     scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 328px;
                     background: #fff; height: 400px;" allowtransparency="true"></iframe>
             </div>
-        </div>
-        <div class="search-box">
-            <div class="s-search" style="display: none;">
-                <div >
-                    <asp:TextBox ID="txtSearch" CssClass="r-search-input" runat="server"></asp:TextBox>
-                    <asp:Button ID="btnTimkiem" runat="server" Text="Tìm kiếm" CssClass="r-submitSearch"
-                        OnClick="btnTimkiem_Click" />
-                </div>
+            <div class="Search1" style="margin-top: 10px;">
+                <asp:TextBox ID="txtSearch" CssClass="search-input" runat="server"></asp:TextBox>
+                <asp:Button ID="btnTimkiem" runat="server" Text="Tìm kiếm" CssClass="submitSearch"
+                    OnClick="btnTimkiem_Click" />
+            </div>
+            <div class="album-du-an" style="">
+               
+                <uc3:ucAlbumDaThucHien ID="ucAlbumDaThucHien1" runat="server" />
             </div>
         </div>
         <%--    <div class="ctright">
@@ -113,4 +126,5 @@
             </div>
         </div>--%>
     </div>
+    </span>
 </asp:Content>

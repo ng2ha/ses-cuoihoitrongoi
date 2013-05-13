@@ -58,6 +58,15 @@ namespace SES.CMS {
         protected global::SES.CMS.Module.ucHappyWedding ucHappyWedding1;
         
         /// <summary>
+        /// abc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl abc;
+        
+        /// <summary>
         /// txtSearch control.
         /// </summary>
         /// <remarks>
@@ -74,5 +83,14 @@ namespace SES.CMS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnTimkiem;
+        
+        /// <summary>
+        /// ucAlbumDaThucHien1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::SES.CMS.Module.ucAlbumDaThucHien ucAlbumDaThucHien1;
     }
 }

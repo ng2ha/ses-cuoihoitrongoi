@@ -1492,6 +1492,7 @@
     <Content Include="Media\Tuong-Linh-Thanh-Van-03042012114026.jpg" />
     <Content Include="Media\vdimg.jpg" />
     <Content Include="Media\Xe-hoa-29032012020245.jpg" />
+    <Content Include="Module\ucAlbumDaThucHien.ascx" />
     <Content Include="Module\ucAlbumLink.ascx" />
     <Content Include="Module\ucBannerLeftRight.ascx" />
     <Content Include="Module\ucChildMenu.ascx" />
@@ -1885,6 +1886,13 @@
     </Compile>
     <Compile Include="ListServices.aspx.designer.cs">
       <DependentUpon>ListServices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Module\ucAlbumDaThucHien.ascx.cs">
+      <DependentUpon>ucAlbumDaThucHien.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Module\ucAlbumDaThucHien.ascx.designer.cs">
+      <DependentUpon>ucAlbumDaThucHien.ascx</DependentUpon>
     </Compile>
     <Compile Include="Module\ucAlbumLink.ascx.cs">
       <DependentUpon>ucAlbumLink.ascx</DependentUpon>
@@ -4748,7 +4756,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>51510</DevelopmentServerPort>
+          <DevelopmentServerPort>52901</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
