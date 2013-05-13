@@ -1,6 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ucServiceSlide.ascx.cs"
     Inherits="SES.CMS.Module.ucServiceSlide" %>
-    
 <div class="cpslide">
     <div class="wt-rotator">
         <a href="#"></a>
