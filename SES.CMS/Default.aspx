@@ -21,9 +21,9 @@
                             </div>
                             <div class="s-title-box">
                                 <a href="/Dich-Vu-Cuoi-Hoi/<%#Eval("CategoryID") %>/<%#Change_AV(Eval("Title").ToString()) %>">
-                                    <h1>
+                                    <h2>
                                         <%#Eval("Title") %>
-                                    </h1>
+                                    </h2>
                                 </a>
                             </div>
                             <div class="s-description-box">
@@ -56,9 +56,9 @@
             <div class="weddingconsult">
                 <div class="weddingconsult-title">
                     <div class="weddingconsult-title-txt">
-                        <h1 class="h1">
+                        <h2 class="h1">
                             <a href="/Tin-Cuoi-Hoi/45/Tu-Van-Mua-Cuoi.aspx">Tư vấn mùa cưới </a>
-                        </h1>
+                        </h2>
                     </div>
                     <div class="weddingconsult-title-rgt">
                     </div>

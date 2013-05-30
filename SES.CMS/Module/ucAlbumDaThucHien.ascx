@@ -1,8 +1,8 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ucAlbumDaThucHien.ascx.cs"
     Inherits="SES.CMS.Module.ucAlbumDaThucHien" %>
 <div class="album-du-an-title">
-    <h1>
-        Lễ cưới đã thực hiện</h1>
+    <h2>
+        Lễ cưới đã thực hiện</h2>
 </div>
 <div class="album-box">
 <asp:Repeater ID="rptKH" runat="server">

@@ -4186,6 +4186,8 @@
     <None Include="fancybox\.svn\text-base\jquery.fancybox-1.3.4.js.svn-base" />
     <None Include="fancybox\.svn\text-base\jquery.fancybox-1.3.4.pack.js.svn-base" />
     <None Include="fancybox\.svn\text-base\jquery.mousewheel-3.0.4.pack.js.svn-base" />
+    <None Include="font\Shelia VNF Regular.ttf" />
+    <None Include="font\Shelia_VNF_Regular.eot" />
     <None Include="Media\album-anh-08042012083150.rar" />
     <None Include="Media\Ferro-sillicon-12122011100752.jpg2" />
     <None Include="Media\Ferro-sillicon-12122011100752.jpg8" />
