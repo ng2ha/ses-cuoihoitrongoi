@@ -96,7 +96,7 @@ namespace SES.CMS.Module
                     lblTitle.Text = GetBreadcrumb(CategoryID);
                 }
                 else
-                    lblTitle.Text = " » <a href='/List-Dich-Vu-Cuoi-Hoi/28/Dich-vu.aspx'> Cưới Hỏi Trọn Gói </a>" + GetBreadcrumb(CategoryID);
+                    lblTitle.Text = " » <a href='/Dich-Vu-Cuoi-Hoi/28/Dich-vu.aspx'> Cưới Hỏi Trọn Gói </a>" + GetBreadcrumb(CategoryID);
             }
             else if (Module == "Dich-Vu-Cuoi-Hoi-Chi-Tiet") 
             {

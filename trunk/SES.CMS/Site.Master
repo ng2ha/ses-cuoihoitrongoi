@@ -140,7 +140,7 @@
             <div class="topmenu">
                 <div class="mnuitem">
                     <ul id="float" class="nav">
-                        <li class="first"><a href="/Default.aspx" rel="nofollow">TRANG CHỦ</a></li>
+                        <li class="first"><a href="/" rel="nofollow">TRANG CHỦ</a></li>
                         <%--<li><a href="/Thong-Tin-Cuoi-Hoi/1/Gioi-Thieu.html">GIỚI THIỆU</a></li>--%>
                         <asp:Label ID="lblCat" runat="server"></asp:Label>
                         <%-- <li><a href="/List-Dich-Vu-Cuoi-Hoi/1/He-thong-dich-vu.html">DỊCH VỤ</a></li>
@@ -167,8 +167,8 @@
                 <div class="ftcontent" style="display: none;">
                     <div class="ft1">
                         <div class="ft1-header">
-                            <h1 class="h1style">
-                                <asp:Label ID="lblFT1Title" runat="server" Text=""></asp:Label></h1>
+                            <h2 class="h1style">
+                                <asp:Label ID="lblFT1Title" runat="server" Text=""></asp:Label></h2>
                         </div>
                         <div class="ft1-content">
                             <asp:Label ID="lblFT1" runat="server" Text=""></asp:Label>
@@ -179,8 +179,8 @@
                     </div>
                     <div class="ft1" style="margin-left: 15px;">
                         <div class="ft1-header">
-                            <h1 class="h1style">
-                                <asp:Label ID="lblFT2Title" runat="server" Text=""></asp:Label></h1>
+                            <h2 class="h1style">
+                                <asp:Label ID="lblFT2Title" runat="server" Text=""></asp:Label></h2>
                         </div>
                         <div class="ft1-content">
                             <asp:Label ID="lblFT2" runat="server" Text=""></asp:Label>
@@ -188,8 +188,8 @@
                     </div>
                     <div class="ft1" style="margin-right: 0px; margin-left: 15px;">
                         <div class="ft1-header">
-                            <h1 class="h1style">
-                                <asp:Label ID="lblFT3Title" runat="server" Text=""></asp:Label></h1>
+                            <h2 class="h1style">
+                                <asp:Label ID="lblFT3Title" runat="server" Text=""></asp:Label></h2>
                         </div>
                         <div class="ft1-content">
                             <asp:Label ID="lblFT3" runat="server" Text=""></asp:Label>
@@ -197,8 +197,8 @@
                     </div>
                 </div>
                 <div class="footer-inner">
-                    <h1>
-                        <asp:Label ID="lblCompanyName" runat="server"></asp:Label></h1>
+                    <h2>
+                        <asp:Label ID="lblCompanyName" runat="server"></asp:Label></h2>
                     <div class="footer-content">
                         <asp:Label ID="lbThongTin" runat="server" Visible="false"></asp:Label>
                         <div class="footer-content-left">

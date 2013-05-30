@@ -37,7 +37,7 @@ namespace SES.CMS.AdminCP.PageUC
                 trDes.Visible = false;
                 trSupport.Visible = true;
             }
-            else if (objConfig.ConfigID >= 8 && objConfig.ConfigID !=15)
+            else if (objConfig.ConfigID >= 8 && objConfig.ConfigID !=15 && objConfig.ConfigID !=16)
             {
                 txtCK.Text = objConfig.ConfigValue;
                 trDes.Visible = false;
@@ -75,7 +75,7 @@ namespace SES.CMS.AdminCP.PageUC
         private void initObject()
         {
             objConfig.ConfigName = txtTitle.Text;
-            if (objConfig.ConfigID == 3 || (objConfig.ConfigID >= 8 && objConfig.ConfigID!=15))
+            if (objConfig.ConfigID == 3 || (objConfig.ConfigID >= 8 && objConfig.ConfigID!=15 && objConfig.ConfigID !=16))
                 objConfig.ConfigValue = txtCK.Text;
             else objConfig.ConfigValue = txtDescription.Text;
             objConfig.IsActive = chkActive.Checked;

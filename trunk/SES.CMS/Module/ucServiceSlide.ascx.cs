@@ -11,6 +11,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Xml.Linq;
 using SES.CMS.BL;
+using SES.CMS.DO;
 
 namespace SES.CMS.Module
 {
@@ -18,6 +19,7 @@ namespace SES.CMS.Module
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+          ltrSlogan.Text = new sysConfigBL().Select(new sysConfigDO() { ConfigID = 16}).ConfigValue;
             if (!string.IsNullOrEmpty(Request.QueryString["ID"]))
             {
                 int ID = 0;

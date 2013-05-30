@@ -106,7 +106,7 @@ namespace SES.CMS
                 url = "/Tin-Cuoi-Hoi/" + id + "/" + FriendlyUrl(objCat.Title);
             
             if(objCat.CategoryID==28)
-                url = "/List-Dich-Vu-Cuoi-Hoi/" + id + "/" + FriendlyUrl(objCat.Title);
+                url = "/Dich-Vu-Cuoi-Hoi/" + id + "/" + FriendlyUrl(objCat.Title);
             if (objCat.CategoryID == 42)
                 url = "/List-Tin-Cuoi-Hoi/" + id + "/" + FriendlyUrl(objCat.Title);
 

@@ -19,6 +19,7 @@ namespace SES.CMS
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            abc.Attributes.Add("src", "//www.facebook.com/plugins/like.php?href=https://www.facebook.com/cuoihoitrongoi.com.vn&send=false&layout=button_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=21&appId=339171169492293");
             Page.Title = new sysConfigBL().Select(new sysConfigDO { ConfigID = 1 }).ConfigValue;
             HtmlMeta meta = new HtmlMeta();
             meta.Name = "description";
