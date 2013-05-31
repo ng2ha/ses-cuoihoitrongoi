@@ -115,7 +115,7 @@
                 <asp:Button ID="btnTimkiem" runat="server" Text="Tìm kiếm" CssClass="submitSearch"
                     OnClick="btnTimkiem_Click" />
             </div>
-            <div class="album-du-an" style="">
+            <div class="album-du-an" style="display:none;">
                
                 <uc3:ucAlbumDaThucHien ID="ucAlbumDaThucHien1" runat="server" />
             </div>
