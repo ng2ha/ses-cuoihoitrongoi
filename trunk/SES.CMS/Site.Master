@@ -139,7 +139,7 @@
         <div class="header">
             <div class="topmenu">
                 <div class="mnuitem">
-                    <ul id="float" class="nav">
+                    <ul id="float" class="nav"> 
                         <li class="first"><a href="/" rel="nofollow">TRANG CHỦ</a></li>
                         <%--<li><a href="/Thong-Tin-Cuoi-Hoi/1/Gioi-Thieu.html">GIỚI THIỆU</a></li>--%>
                         <asp:Label ID="lblCat" runat="server"></asp:Label>
