@@ -23,13 +23,20 @@ namespace SES.CMS
             objCat.CategoryID = id;
             objCat = new cmsCategoryBL().Select(objCat);
             if (!string.IsNullOrEmpty(objCat.WebTitle))
-                Page.Title = objCat.WebTitle;
+            {
+                if(objCat.WebTitle.Length<=50){
+                    string title = objCat.WebTitle.Replace("-", " ");
+                    Page.Title = title;
+                }
+                else
+                Page.Title = objCat.Title;
+            }
             else Page.Title = objCat.Title;
             
             HtmlMeta meta = new HtmlMeta();
             meta.Name = "description";
             //meta.Content = objCat.MetaKeyword;
-            meta.Content = Page.Title + "+ Công ty dịch vụ cưới hỏi trọn gói Quang Dũng đã từng phục vụ cho các đám cưới nổi tiếng ở Việt Nam";
+            meta.Content = objCat.Description + "Công ty dịch vụ cưới hỏi trọn gói Quang Dũng đã từng phục vụ cho các đám cưới nổi tiếng ở Việt Nam";
             Page.Header.Controls.Add(meta);
 
             lblContentTitle.Text = objCat.Title.ToUpper();

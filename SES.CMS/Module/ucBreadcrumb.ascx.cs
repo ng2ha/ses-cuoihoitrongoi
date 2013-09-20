@@ -77,6 +77,9 @@ namespace SES.CMS.Module
             {
                 lblTitle.Text = " » <a href='/Album-Cuoi-Hoi.aspx'> Album </a>";
             }
+           
+                
+            
             else if (Module == "Album-Cuoi-Hoi-Chi-Tiet")
             {
                 if (!string.IsNullOrEmpty(Request.QueryString["ID"]))
@@ -93,7 +96,8 @@ namespace SES.CMS.Module
                 int CategoryID = int.Parse(Request.QueryString["ID"]);
                 if (CategoryID == 1)
                 {
-                    lblTitle.Text = GetBreadcrumb(CategoryID);
+                    //lblTitle.Text = GetBreadcrumb(CategoryID);
+                    lblTitle.Text = " » <a href='/Dich-Vu-Cuoi-Hoi/1/Ve-chung-toi.aspx'> Về chúng tôi </a>";
                 }
                 else
                     lblTitle.Text = " » <a href='/Dich-Vu-Cuoi-Hoi/28/Dich-vu.aspx'> Cưới Hỏi Trọn Gói </a>" + GetBreadcrumb(CategoryID);
