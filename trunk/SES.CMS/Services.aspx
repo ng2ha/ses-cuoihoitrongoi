@@ -17,7 +17,7 @@
             <uc5:ucSocialLink ID="ucSocialLink1" runat="server" />
             <div class="servicecontent-top">
                 <div class="servicecontent-top-left" style="margin-left: -8px;">
-                    <asp:Label ID="lblContentTitle" runat="server" Text="Title" Font-Size="18px"></asp:Label>
+                    <h1><asp:Label ID="lblContentTitle" runat="server" Text="Title" Font-Size="18px"></asp:Label></h1>
                 </div>
                 <div class="servicecontent-top-rgt">
                 </div>

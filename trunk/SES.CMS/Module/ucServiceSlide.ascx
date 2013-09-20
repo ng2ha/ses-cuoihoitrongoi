@@ -38,5 +38,6 @@
     </div>
 </div>
 <div class="slide-under">
-    <h1 class="h1-quang-dung"><asp:Literal runat="server" ID="ltrSlogan"></asp:Literal> </h1>
+    <P class="h1-quang-dung"><asp:Literal runat="server" ID="ltrSlogan"></asp:Literal> </p>
+    
 </div>

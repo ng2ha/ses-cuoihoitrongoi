@@ -19,7 +19,7 @@ namespace SES.CMS.Module
                 if (!string.IsNullOrEmpty(Request.QueryString["ID"]))
                 {
                     int serviceID = int.Parse(Request.QueryString["ID"]);
-                    if (serviceID == 32 || serviceID == 36 || serviceID == 39 || serviceID == 114 || serviceID == 41)
+                    if (serviceID == 32 || serviceID == 36 || serviceID == 39 || serviceID == 114 || serviceID == 41 || serviceID == 28)
                     {
                         rptServiceL1.Visible = false;
                     }
