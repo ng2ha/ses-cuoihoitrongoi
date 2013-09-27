@@ -46,7 +46,7 @@ namespace SES.CMS {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblContentTitle;
+        protected global::System.Web.UI.WebControls.Literal lblContentTitle;
         
         /// <summary>
         /// lblDescription control.
