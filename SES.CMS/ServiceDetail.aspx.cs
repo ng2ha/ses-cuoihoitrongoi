@@ -36,7 +36,7 @@ namespace SES.CMS
             HtmlMeta meta = new HtmlMeta();
             meta.Name = "description";
             //meta.Content = objCat.MetaKeyword;
-            meta.Content = objCat.Description + "Công ty dịch vụ cưới hỏi trọn gói Quang Dũng đã từng phục vụ cho các đám cưới nổi tiếng ở Việt Nam";
+            meta.Content = objCat.Description;
             Page.Header.Controls.Add(meta);
 
             lblContentTitle.Text = objCat.Title.ToUpper();
