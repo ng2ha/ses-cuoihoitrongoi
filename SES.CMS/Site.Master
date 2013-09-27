@@ -220,7 +220,7 @@
     </div>
     <div style="border-top-left-radius: 3px 3px; position: fixed; color: #000; font-size: 12px;
         z-index: 9998; width: 220px; bottom: 0px; right: 0px; background-color: white;
-        border: solid #c83838 1px;">
+        border: solid #c83838 1px; display:none;">
         <div id="yahooSupports" style="display: none;">
             <img src='/images/hotro.png' />
         </div>
