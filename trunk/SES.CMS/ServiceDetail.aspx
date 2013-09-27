@@ -5,7 +5,6 @@
 <%@ Register Src="Module/ucSocialLink.ascx" TagName="ucSocialLink" TagPrefix="uc5" %>
 <%@ Register Src="Module/ucBreadcrumb.ascx" TagName="ucBreadcrumb" TagPrefix="uc2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   
     <div class="mainct">
         <uc1:ucServiceMenu ID="ucServiceMenu1" runat="server" />
         <div class="servicecontent">
@@ -13,7 +12,9 @@
             <uc5:ucSocialLink ID="ucSocialLink1" runat="server" />
             <div class="servicecontent-top">
                 <div class="servicecontent-top-left">
-                    <asp:Label ID="lblContentTitle" runat="server" Text="Title" Font-Size="18px"></asp:Label>
+                    <h1 class="servicecontent-top-lefth1">
+                        <asp:Literal ID="lblContentTitle" runat="server" Text="Title"></asp:Literal>
+                    </h1>
                 </div>
                 <div class="servicecontent-top-rgt">
                 </div>
