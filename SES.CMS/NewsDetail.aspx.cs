@@ -34,7 +34,7 @@ namespace SES.CMS
                 meta.Name = "description";
                 //meta.Content = new cmsCategoryBL().Select(new cmsCategoryDO{CategoryID = objCat.CategoryID}).MetaKeyword;
                 meta.Content = "Công ty dịch vụ cưới hỏi trọn gói Quang Dũng đã từng phục vụ cho các đám cưới nổi tiếng ở Việt Nam";
-                Page.Header.Controls.Add(meta);
+                Page.Header.Controls.Add(meta); 
 
 
                 DataTable dta = new cmsArticleBL().SelectOne(objCat);
